@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="author" content="Angel Azpitarte">
-		<meta name="description" content="My Portfolio">
+		<meta name="description" content="Programmer Portfolio">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<title> My Portfolio </title>
@@ -14,21 +14,19 @@
 	</head>
 	
 	<body>
-		<header>
+		<header id="top">
 			<h1> Hello! I'm Angel Azpitarte. </h1>
 		</header>
 		<nav>
 			<ul>
-				<li>Projects</li>
-				<li>Top</li>
+				<li><a onclick="scrollIntoView(top)" href="#top">Top</a></li>
+				<li><a href="#skills">Skills</a></li>
+				<li><a href="#projects">Projects</a></li>
 			</ul>
 		</nav>	
 		<section alt="about me">
 			<div id="selfie">
 				<img alt="selfie" src="img/me.png">
-			</div>
-			<div>
-
 			</div>
 
 			<h2>About me:</h2>
@@ -50,29 +48,88 @@
 			</footer>
  		</section>
 
- 		<article>
+ 		<article alt="These are skills that Angel Azpitarte
+ 		posseses" id="skills">
  			<header>
- 				<h2> Skillz </h2>
+ 				<h2> Skills </h2>
  			</header>
- 			<p> Here are some of my skills listed by familiarity:</p>
- 			<ul alt='my skils'>
+ 			<p> Here are some of my programming related skills listed by familiarity:</p>
+ 			<ul alt='My programming skils'>
  				<li>C++</li>
  				<li>C</li>
  				<li>Java</li>
  				<li>HTML5</li>
  				<li>CSS3</li>
- 				<li>MySQL</li>
+ 				<li>UI/UX</li>
  				<li>Python</li>
  				<li>JavaScript</li>
+ 				<li>UNIX</li>
+ 				<li>command line</li>
+ 				<li>Socket programming</li>
+ 				<li>x86 Assembly</li>
+ 				<li>Algorithms</li>
+ 				<li>MySQL</li>
  				<li>AWS</li>
+ 				<li>Graphics Programming</li>
+ 				<br/>
+			</ul>
+
+			<p> Non-programming related skills:</p>
+ 			<ul alt='Miscellaneous skills'>
+ 				<li>Drawing</li>
  				<li>AutoCAD</li>
  				<li>Drafting</li>
  				<li>SolidWorks</li>
+ 				<li>Guitar</li>
+ 				<li>memes</li>
  				<li>Public Speaking</li>
  				<li>Debating</li>
  				<li>Bilingual: Spanish</li>
+ 				<br/>
 			</ul>
+ 		</article>
 
+ 		<article alt="These are some of the projects Angel Azpitarte has worked on" id="projects">
+ 			
+ 			<header>
+ 				<h2> Projects </h2>
+ 			</header>
+
+ 			<section>
+				<div alt="Pair of images of Fablix website">
+	 				<img src="img/fablix1.png">
+	 				<img src="img/fablix2.png">
+	 				<br/>
+	 			</div>
+ 				<header>
+ 					<h3> Fablix: Full-Stack e-commerce site </h3>
+ 				</header>
+	 			<p>	
+					Implemented a fully scalable movie ecommerce website that can perform to the standards of most high traffic sites. This was acheived by load balanceing several instances of Tomcat using an Apache server.
+				</p>
+				<p>
+					Most of the website content was retreived by parsing through a large XML movie dataset.
+				</p> 
+				<p>
+					Deployed the site on the AWS cloud platform. Our site was very sercure  by using practices like https and reCAPTCHA for user authentication.
+				</p>
+				<p>
+					A corresponding Android Mobile App was also made with similar functionality to the Fablix website.
+				</p>
+
+				<header>
+					<h3> Features </h3>
+				</header>
+				<ul alt='Fablix  Features'>
+					<li>MySQL</li>
+	 				<li>AWS</li>
+	 				<li>Java</li>
+	 				<li>Tomcat 8.0 - 9.0</li>
+	 				<li>Command line</li>
+	 				<li>Android</li>
+	 				<br/>
+				</ul>
+ 			</section>
  		</article>
 
 	</body>

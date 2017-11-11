@@ -14,4 +14,11 @@ function ayy() {
 	}
 };
 
+function scrollIntoView(element) {
+   var e = document.getElementById(element);
+   if (!!e && e.scrollIntoView) {
+       e.scrollIntoView();
+   }
+};
+
 window.onload = ayy();
