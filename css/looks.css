@@ -1,11 +1,5 @@
 /*
-
-    font-family: 'Lato', sans-serif;
-
-    font-family: 'Open Sans', sans-serif;
-
-    font-family: 'Roboto Mono', monospace;
-
+	Stylesheet made by: Angel Azpitarte
 */
 
 body {
@@ -30,7 +24,7 @@ nav ul, article ul {
 	margin: 0em;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
-	overflow: hidden;
+	#overflow: hidden;
 }
 nav ul li {
 	float: right;
@@ -44,6 +38,9 @@ nav ul li {
 	-o-transition: background-color 0.3s ease-out;
 	transition: background-color 0.3s ease-out;
 
+}
+nav ul li:nth-child(3) {
+	margin-left: 0em;
 }
 nav ul li a, nav ul li a:hover, nav ul li a:link, nav ul li a:visited, nav ul li a:focus, nav ul li a:active {
 	text-decoration: none;
@@ -186,6 +183,10 @@ footer img:hover {
     text-shadow: 1px 1px 5px #111111;
 }
 
+#contact {
+	margin-top: 3em;
+}
+
 .single-pic {
 	width: 85%;
 }
@@ -215,14 +216,23 @@ footer img:hover {
     	margin: 0em auto;
     }
 }
+@media only screen and (min-width: 920px) {
+	section {
+		margin: 0em auto 4em auto;
+		padding: 3em 3em 2em 3em;
+		width: 75%;
+		overflow: hidden;
+		text-align: left;
+	}
 
-
-
-
-
-
-
-
+	article {
+		background-color: #222222;
+		margin: 0em auto 4em auto;
+		padding: 3em 3em 2em 3em;
+		box-shadow: 0.5em 0.5em 5px #000000;
+		text-shadow: 2px 2px 8px #000000;
+	}
+}
 @media only screen and (min-width: 1920){
     section, article{
     	width: auto;
