@@ -24,7 +24,7 @@ nav ul, article ul {
 	margin: 0em;
 	padding-top: 0.25em;
 	padding-bottom: 0.25em;
-	#overflow: hidden;
+	overflow: hidden;
 }
 nav ul li {
 	float: right;
