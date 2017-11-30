@@ -195,6 +195,15 @@ footer img:hover {
 	width: 85%;
 }
 
+
+body {
+	background: #6655aa;
+	background: -webkit-linear-gradient(#6655aa, #f2cc92);
+	background:    -moz-linear-gradient(#6655aa, #f2cc92);
+	background:         linear-gradient( to right, #6655aa, #f2cc92);
+}
+
+
 /* media queries */
 @media only screen and (max-width: 600px) {
     section, article{
