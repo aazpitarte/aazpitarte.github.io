@@ -74,6 +74,10 @@ h3 {
 	font-size: 1.5em;
 }
 
+.research h1, .research h2, .research h3 {
+	text-align: center;
+}
+
 section {
 	background-color: #555555;
 	margin: 0em auto 4em auto;
