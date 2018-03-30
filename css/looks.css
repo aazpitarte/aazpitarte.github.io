@@ -198,9 +198,9 @@ footer img:hover {
 
 body {
 	background: #6655aa;
-	background: -webkit-linear-gradient(#6655aa, #f2cc92);
-	background:    -moz-linear-gradient(#6655aa, #f2cc92);
-	background:         linear-gradient( to right, #6655aa, #f2cc92);
+	background: -webkit-linear-gradient(#6655aa, #7598d1);
+	background:    -moz-linear-gradient(#6655aa, #7598d1);
+	background:         linear-gradient( to right, #6655aa, #7598d1);
 }
 
 
