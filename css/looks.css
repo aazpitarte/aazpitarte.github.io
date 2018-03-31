@@ -194,13 +194,16 @@ footer img:hover {
 .single-pic {
 	width: 85%;
 }
-
+.triple-pic {
+	width: 30%;
+	margin: 0.5em;
+}
 
 body {
 	background: #6655aa;
-	background: -webkit-linear-gradient(#6655aa, #7598d1);
-	background:    -moz-linear-gradient(#6655aa, #7598d1);
-	background:         linear-gradient( to right, #6655aa, #7598d1);
+	background: -webkit-linear-gradient(#5755aa, #7598d1);
+	background:    -moz-linear-gradient(#5755aa, #7598d1);
+	background:         linear-gradient( to right, #5755aa, #7598d1);
 }
 
 
