@@ -170,6 +170,12 @@ footer img:hover {
 }
 
 
+.art-tag {
+	padding: 0.25em 0.5em 0.25em 0.5em;
+	background-color: #13bf26;
+	border-radius: 2em;
+}
+
 #custom-tags {
 	list-style-type: none;
 	margin: 0em;
@@ -218,6 +224,12 @@ body {
 	background: -webkit-linear-gradient(#5755aa, #7598d1);
 	background:    -moz-linear-gradient(#5755aa, #7598d1);
 	background:         linear-gradient( to right, #5755aa, #7598d1);
+}
+.myart {
+	background: #4cb54f;
+	background: -webkit-linear-gradient(#39933c, #111111);
+	background:    -moz-linear-gradient(#39933c, #111111);
+	background:         linear-gradient( to right, #39933c, #111111);
 }
 
 
