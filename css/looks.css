@@ -83,7 +83,7 @@ section {
 	margin: 0em auto 4em auto;
 	padding: 3em 3em 2em 3em;
 	width: 75%;
-	border-radius: 1em;
+	border-radius: 0em 0em 1em 0em;
 	color: #FFFFFF;
 	box-shadow: 0.5em 0.5em 5px #000000;
 	text-shadow: 2px 2px 8px #000000;
@@ -96,7 +96,7 @@ article {
 	margin: 0em auto 4em auto;
 	padding: 3em 3em 2em 3em;
 	width: 75%;
-	border-radius: 1em;
+	border-radius: 0em 0em 1em 0em;;
 	color: #FFFFFF;
 	box-shadow: 0.5em 0.5em 5px #000000;
 	text-shadow: 2px 2px 8px #000000;
@@ -201,6 +201,11 @@ footer img:hover {
 	width: auto;
 }
 
+#logopic {
+	border-style: none;
+	border: none;
+}
+
 #copy-r {
     margin: 0em auto;
     text-align: center;
@@ -226,10 +231,17 @@ body {
 	background:         linear-gradient( to right, #5755aa, #7598d1);
 }
 .myart {
-	background: #4cb54f;
-	background: -webkit-linear-gradient(#39933c, #111111);
-	background:    -moz-linear-gradient(#39933c, #111111);
-	background:         linear-gradient( to right, #39933c, #111111);
+	background: #0a123d;
+	background: -webkit-linear-gradient(#2138ba, #48c2c4);
+	background:    -moz-linear-gradient(#2138ba, #48c2c4);
+	background:         linear-gradient( to right, #2138ba, #48c2c4);
+}
+.art-showcase {
+	text-align: center;
+}
+.art-showcase a img {
+	width: 80%;
+	height: auto;
 }
 
 
